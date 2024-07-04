@@ -1,0 +1,5 @@
+select s1.duration + s2.duration 
+from  sighting s1, sighting s2
+where s1.id = 33 and s2.id = 2879
+
+# il peso di un arco sarà la durata complessiva dei due avvistamenti adiacenti
